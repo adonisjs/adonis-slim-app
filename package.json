@@ -1,0 +1,22 @@
+{
+  "name": "adonis-slim-app",
+  "version": "1.0.0",
+  "description": "Smallest possible application for adonisjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-app"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^4.0.2",
+    "@adonisjs/fold": "^4.0.0",
+    "@adonisjs/framework": "^4.0.4",
+    "@adonisjs/ignitor": "^1.0.4"
+  }
+}
