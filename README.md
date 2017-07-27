@@ -1,5 +1,7 @@
 # Adonis Slim App
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adonisjs/adonis-slim-app.svg)](https://greenkeeper.io/)
+
 The Adonis slim app is the tinest boilerplate to create Adonisjs applications with minimal footprint and you get all the goodies of Adonis IoC container, autoloading, ace commands etc.
 
 ## What's next?
