@@ -15,4 +15,19 @@
 
 const Route = use('Route')
 
-Route.get('/', () => 'Response from the slimmest app')
+Route.get('/', ({ request }) => {
+  return `
+  <html>
+    <head>
+      <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+      <section>
+        <div class="logo"></div>
+        <div class="title"></div>
+        <div class="subtitle"><p>AdonisJs simplicity will make you feel confident about your code</p></div>
+      </section>
+    </body>
+  </html>
+  `
+})
