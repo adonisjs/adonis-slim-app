@@ -1,6 +1,6 @@
 {
   "name": "adonis-slim-app",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "description": "Smallest possible application for adonisjs",
   "main": "index.js",
   "scripts": {
