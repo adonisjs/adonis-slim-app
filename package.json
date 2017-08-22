@@ -1,6 +1,7 @@
 {
   "name": "adonis-slim-app",
   "version": "4.0.0",
+  "adonis-version": "4.0.0",
   "description": "Smallest possible application for adonisjs",
   "main": "index.js",
   "scripts": {
@@ -15,9 +16,9 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@adonisjs/ace": "^4.0.4",
+    "@adonisjs/ace": "^4.0.5",
     "@adonisjs/fold": "^4.0.2",
-    "@adonisjs/framework": "^4.0.8",
-    "@adonisjs/ignitor": "^1.0.6"
+    "@adonisjs/framework": "^4.0.12",
+    "@adonisjs/ignitor": "^1.0.9"
   }
 }
