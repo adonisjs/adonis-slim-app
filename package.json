@@ -18,7 +18,7 @@
   "dependencies": {
     "@adonisjs/ace": "^4.0.5",
     "@adonisjs/fold": "^4.0.2",
-    "@adonisjs/framework": "^4.0.14",
+    "@adonisjs/framework": "^4.0.18",
     "@adonisjs/ignitor": "^1.0.10"
   }
 }
