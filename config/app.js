@@ -171,7 +171,7 @@ module.exports = {
     |
     */
     console: {
-      driver: 'console'
+      driver: 'console',
       name: 'adonis-app',
       level: 'info'
     },
