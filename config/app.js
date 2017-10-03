@@ -65,7 +65,21 @@ module.exports = {
     | in request url.
     |
     */
-    jsonpCallback: 'callback'
+    jsonpCallback: 'callback',
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Etag
+    |--------------------------------------------------------------------------
+    |
+    | Set etag on all HTTP response. In order to disable for selected routes,
+    | you can call the `response.send` with an options object as follows.
+    |
+    | response.send('Hello', { ignoreEtag: true })
+    |
+    */
+    etag: true
   },
 
   views: {
