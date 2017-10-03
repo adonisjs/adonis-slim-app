@@ -20,5 +20,8 @@
     "@adonisjs/fold": "^4.0.4",
     "@adonisjs/framework": "^4.0.23",
     "@adonisjs/ignitor": "^1.0.12"
+  },
+  "autoload": {
+    "Foo": "./app"
   }
 }
