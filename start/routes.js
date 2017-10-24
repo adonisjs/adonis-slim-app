@@ -15,7 +15,7 @@
 
 const Route = use('Route')
 
-Route.get('/', ({ request }) => {
+Route.get('/', () => {
   return `
   <html>
     <head>
