@@ -79,7 +79,7 @@ module.exports = {
     | response.send('Hello', { ignoreEtag: true })
     |
     */
-    etag: true
+    etag: false
   },
 
   views: {
