@@ -1,5 +1,7 @@
 'use strict'
 
+const Env = use('Env')
+
 module.exports = {
   /*
   |--------------------------------------------------------------------------
@@ -10,7 +12,7 @@ module.exports = {
   | auth module too.
   |
   */
-  driver: Env.get('APP_KEY'),
+  driver: Env.get('HASH_DRIVER', 'bcrypt'),
 
   /*
   |--------------------------------------------------------------------------
