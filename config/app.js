@@ -27,7 +27,7 @@ module.exports = {
   | to encrypted cookies, sessions and other sensitive data.
   |
   */
-  appKey: Env.get('APP_KEY'),
+  appKey: Env.getOrFail('APP_KEY'),
 
   http: {
     /*
@@ -222,5 +222,22 @@ module.exports = {
       filename: 'adonis.log',
       level: 'info'
     }
+  },
+
+  /*
+  |--------------------------------------------------------------------------
+  | Generic Cookie Options
+  |--------------------------------------------------------------------------
+  |
+  | The following cookie options are generic settings used by AdonisJs to create
+  | cookies. However, some parts of the application like `sessions` can have
+  | seperate settings for cookies inside `config/session.js`.
+  |
+  */
+  cookie: {
+    httpOnly: true,
+    sameSite: false,
+    path: '/',
+    maxAge: 7200
   }
 }
